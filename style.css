@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.black{
+  background-color: rgba(0,0,0,0.3);
+ 
+}
+.test2{
+  justify-content: center;
+  align-items: center;
+    animation-name:move;
+  animation-duration: 1.50s;
+  position: relative;
+   -webkit-animation-timing-function: ease;
+  
+}
+@-webkit-keyframes  move {
+    from {right: -50%;}
+    to {right: 0}
+  }
+.navbar .navbar-nav li.active a:hover{
+    color: #f25454  ;
+}
+.navbar .navbar-nav li.active i:hover{
+    color: #f25454  ;
+}
+.navbar .navbar-nav li.active a{
+    color: #ffffff  ;
+}
+.navbar .navbar-nav li.active i{
+    color: #ffffff ;
+}
+.navbar .navbar-nav li.active .test {
+    color: #f25454 !important ;
+}
+.section1 h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+}
+
+ 
+.bar{
+    clear: both;  
+}
+.progress-heading
+{
+    overflow: hidden;
+  
+}
+.progress-heading .progress-title{
+    float: left;
+}
+.progress-heading .progress-value{
+    text-align: right;
+}
+  .part1{
+      position: relative;
+      overflow: hidden;
+      transition: all 1s;
+  }
+  .test1{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    transition: all 1s;
+  }
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(242,84,84,0.85);
+    transition: all 1s;
+  }
+  .part1:hover .overlay1 {
+    opacity: 1;
+  }
+  .part1:hover .test1 {
+    -webkit-transform: scale(1.12);
+    -moz-transform: scale(1.12);
+  
+
+  }
+  
+  .font-icons{
+    color: white;
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     
+    
+    transform: translate(-50%, -50%);
+    text-align: center;      
+
+  }
+  .test3 img {
+width:25%;
+float: left;
+  }
+  .clear{
+      clear: both;
+  }
+  .section5{
+      overflow: auto;
+  }
+  .section5 h4:hover{
+    color: #f25454;
+  }
+  .section6{
+      overflow: auto;
+  }
+  .part3{
+      left: 40%;
+  }
+  .section7{
+      background-color: #000000;
+      overflow: auto;
+  }
+  .test4{
+      overflow: hidden;
+      display: block;
+      margin-top: 30px;
+margin-bottom: 30px;
+  }
+  .section8{
+    overflow: auto;
+  }
+  .section8 img{
+    transition-duration: 1s;
+   overflow: hidden;
+   
+}
+ .section8 img:hover{
+   opacity: 0.6;
+        -ms-transform:scale(1.2);
+        -webkit-transform:scale(1.2); 
+        transform:scale(1.2);
+ }
+ .player{
+     overflow: hidden;
+     display: block;
+}
+  .section9{
+      overflow: auto;
+  }
